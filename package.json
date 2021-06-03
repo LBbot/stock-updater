@@ -1,0 +1,22 @@
+{
+  "name": "stock-updater",
+  "version": "1.0.0",
+  "description": "Get quantity of stock by combining data from two JSON files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Laurence Briscoe",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LBbot/stock-updater.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
+}
