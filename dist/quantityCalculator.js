@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.quantityCalculator = void 0;
-const quantityCalculator = (transactionsArray, quantity) => {
+export const quantityCalculator = (transactionsArray, quantity) => {
     transactionsArray.forEach(transaction => {
         if (transaction.type === "order") {
             quantity += transaction.qty;
@@ -12,4 +9,3 @@ const quantityCalculator = (transactionsArray, quantity) => {
     });
     return quantity;
 };
-exports.quantityCalculator = quantityCalculator;
